@@ -6,21 +6,22 @@ Generate a JS/TS file that allows you to reference the properties of your Tailwi
 ### Usage
 Simply install the package and run `tw-theme` to generate the file. By default, it looks for `./tailwind.config.js` and outputs to `./tailwind.js`
 
+Install the package
 ```js
-# Install the package
 npm i -D ryantbrown/tailwind-theme-vars
+```
 
-# Generate the theme file
+Generate the theme file
+```js
 tw-theme
 ```
 
 ### Options
 
-```
-# Specify the config and output files.
+Specify the config and output files.
+```js
 tw-theme --config "./tailwind.config.js" -output "./theme.js"
 
-# Use the short flags
 tw-theme -c "./tailwind.config.js" -o "./tailwind.js"
 ```
 
