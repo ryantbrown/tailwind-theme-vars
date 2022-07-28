@@ -3,7 +3,13 @@
 Generate a JS/TS file that allows you to reference the properties of your Tailwind theme.
 
 
-# Installation
+# Usage
 
-npm i -D ryantbrown/tw-theme-vars
+```js
+# Install the package
+npm i -D ryantbrown/tailwind-theme-vars
+
+# Generate the theme file
+./node_modules/bin/
+```
 

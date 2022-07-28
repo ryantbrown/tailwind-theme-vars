@@ -31,9 +31,9 @@ try {
     const {theme} = require('tailwindcss/resolveConfig')(require(args.config));
 
     require('fs').writeFileSync(
-        require('path/resolve')(process.cwd(), args.output),
+        require('path').resolve(process.cwd(), args.output),
         require('prettier').format(
-            `const theme = ${JSON.stringify(theme)},
+            `const theme = ${JSON.stringify(theme)}
             export default theme`,
 
             {parser: 'babel'},
