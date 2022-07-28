@@ -1,0 +1,13 @@
+{
+  "name": "generate-tw-theme",
+  "version": "1.0.0",
+  "description": "Access your TailwindCSS theme variables in your codebase. ",
+  "main": "index.js",
+  "author": "Ryan Brown",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.6",
+    "yargs": "^17.5.1"
+  }
+}
