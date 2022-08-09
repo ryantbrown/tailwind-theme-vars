@@ -11,13 +11,13 @@
                 description: 'Tailwind config file',
                 requiresArg: false,
                 alias: 'c',
-                default: './tailwind.config.js'
+                default: '../../tailwind.config.js'
             },
             output: {
                 description: 'Output file',
                 requiresArg: false,
                 alias: 'o',
-                default: './tailwind.js'
+                default: '../../tailwind.js'
             },
         })
         .argv;
