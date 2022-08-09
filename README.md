@@ -8,7 +8,7 @@ Simply install the package and run `tw-theme` to generate the file. By default, 
 
 Install the package
 ```js
-npm i -D ryantbrown/tailwind-theme-vars
+yarn add -D ryantbrown/generate-tailwindcss-theme
 ```
 
 Generate the theme file

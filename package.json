@@ -1,7 +1,7 @@
 {
-  "name": "generate-tw-theme",
+  "name": "generate-tailwindcss-theme",
   "version": "1.0.0",
-  "description": "Access your TailwindCSS theme variables in your codebase. ",
+  "description": "Access your TailwindCSS variables through an auto-generated theme.js file.",
   "main": "index.js",
   "author": "Ryan Brown",
   "license": "MIT",
